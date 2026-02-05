@@ -1,9 +1,13 @@
 name: Update VLESS
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+
 
 jobs:
   update:
